@@ -2,19 +2,25 @@
 
 int main(void) {
 
-   QTextStream out(stdout);
+    QTextStream out(stdout);
 
-   QString a = "love";
+    QString str1 = "The night train";
+    out << str1 << endl;
 
-   a.append(" chess");
-   a.prepend("I ");
+    QString str2("A yellow rose");
+    out << str2 << endl;
 
-   out << a << endl;
-   out << "The a string has " << a.count()
-       << " characters" << endl;
+    std::string s1 = "A blue sky";
+    QString str3 = s1.c_str();
+    out << str3 << endl;
 
-   out << a.toUpper() << endl;
-   out << a.toLower() << endl;
+    std::string s2 = "A thick fog";
+    QString str4 = QString::fromLatin1(s2.data(), s2.size());
+    out << str4 << endl;
+
+    char s3[] = "A deep forest";
+    QString str5(s3);
+    out << str5 << endl;
 
    return 0;
 }
