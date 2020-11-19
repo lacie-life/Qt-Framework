@@ -22,5 +22,11 @@ int main(void) {
     QString str5(s3);
     out << str5 << endl;
 
+    out << str5[0] << endl;
+    out << str5.at(0) << endl;
+
+    if (str5.at(13).isNull()){
+        out << "Outside the range of the string" << endl;
+    }
    return 0;
 }
