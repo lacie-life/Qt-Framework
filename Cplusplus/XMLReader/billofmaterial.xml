@@ -1,0 +1,19 @@
+<!-- File billofmaterial.xml-->
+<BOM BOARD="Motor controller" YEAR="2014">
+
+   <COMPONENT ID="R1">
+      <NAME>Resistor</NAME>
+      <VALUE>47000</VALUE>
+   </COMPONENT>
+
+   <COMPONENT ID="C1">      
+      <NAME>Capacitor</NAME>
+      <VALUE>100e-6</VALUE>
+   </COMPONENT>
+
+   <COMPONENT ID="U1">
+      <VALUE>0</VALUE>
+      <NAME>Driver</NAME>
+   </COMPONENT>
+
+</BOM>
