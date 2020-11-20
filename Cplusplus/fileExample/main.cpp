@@ -35,6 +35,20 @@ int main(int argc, char *argv[]) {
   out << "Last read: " << last_rea.toString() << endl;
   out << "Last modified: " << last_mod.toString() << endl;
 
+  QString absPath = fileinfo.absoluteFilePath();
+  QString baseName = fileinfo.baseName();
+  QString compBaseName = fileinfo.completeBaseName();
+  QString fileName = fileinfo.fileName();
+  QString suffix = fileinfo.suffix();
+  QString compSuffix = fileinfo.completeSuffix();
+
+  out << "Absolute file path: " << absPath << endl;
+  out << "Base name: " << baseName << endl;
+  out << "Complete base name: " << compBaseName << endl;
+  out << "File name: " << fileName << endl;
+  out << "Suffix: " << suffix << endl;
+  out << "Whole suffix: " << compSuffix << endl;
+
   // Read and Write file
   QFile file(filename);
 
