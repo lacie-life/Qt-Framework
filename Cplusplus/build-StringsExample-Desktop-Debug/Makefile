@@ -52,8 +52,8 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = ../StringsExample/main.cpp 
-OBJECTS       = main.o
+SOURCES       = ../StringsExample/looping.cpp 
+OBJECTS       = looping.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf \
@@ -110,6 +110,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf \
+		../StringsExample/.qmake.stash \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf \
@@ -127,7 +128,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		../StringsExample/StringsExample.pro  ../StringsExample/main.cpp
+		../StringsExample/StringsExample.pro  ../StringsExample/looping.cpp
 QMAKE_TARGET  = StringsExample
 DESTDIR       = 
 TARGET        = StringsExample
@@ -195,6 +196,7 @@ Makefile: ../StringsExample/StringsExample.pro /usr/lib/x86_64-linux-gnu/qt5/mks
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf \
@@ -270,6 +272,7 @@ Makefile: ../StringsExample/StringsExample.pro /usr/lib/x86_64-linux-gnu/qt5/mks
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf:
@@ -303,7 +306,7 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../StringsExample/main.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../StringsExample/looping.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -351,8 +354,8 @@ compiler_clean: compiler_moc_predefs_clean
 
 ####### Compile
 
-main.o: ../StringsExample/main.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../StringsExample/main.cpp
+looping.o: ../StringsExample/looping.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o looping.o ../StringsExample/looping.cpp
 
 ####### Install
 
