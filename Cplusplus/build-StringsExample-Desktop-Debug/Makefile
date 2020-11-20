@@ -52,8 +52,8 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = ../StringsExample/letters.cpp 
-OBJECTS       = letters.o
+SOURCES       = ../StringsExample/main.cpp 
+OBJECTS       = main.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf \
@@ -128,7 +128,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		../StringsExample/StringsExample.pro  ../StringsExample/letters.cpp
+		../StringsExample/StringsExample.pro  ../StringsExample/main.cpp
 QMAKE_TARGET  = StringsExample
 DESTDIR       = 
 TARGET        = StringsExample
@@ -306,7 +306,7 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../StringsExample/letters.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../StringsExample/main.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -354,8 +354,8 @@ compiler_clean: compiler_moc_predefs_clean
 
 ####### Compile
 
-letters.o: ../StringsExample/letters.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o letters.o ../StringsExample/letters.cpp
+main.o: ../StringsExample/main.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../StringsExample/main.cpp
 
 ####### Install
 

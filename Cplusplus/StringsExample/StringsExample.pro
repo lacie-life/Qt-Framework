@@ -17,9 +17,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
 #        looping.cpp \ #\
 #        convertString.cpp \ #\
-        letters.cpp
+#        letters.cpp \
+#        html_escape.cpp \
+#        modify.cpp
 #        stringCompare.cpp
-#        main.cpp
+        main.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
