@@ -16,7 +16,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
 #        looping.cpp \ #\
-        convertString.cpp #\
+#        convertString.cpp \ #\
+        letters.cpp
 #        stringCompare.cpp
 #        main.cpp
 
