@@ -18,9 +18,9 @@ Snake::Snake(QWidget *parent) : QWidget(parent) {
 
 void Snake::loadImages() {
 
-    dot.load("dot.png");
-    head.load("head.png");
-    apple.load("apple.png");
+    dot.load("dot.jpg");
+    head.load("head.jpg");
+    apple.load("apple.jpg");
 }
 
 void Snake::initGame() {
