@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/layouts">
+        <file>basicLayout.qml</file>
+    </qresource>
+</RCC>
