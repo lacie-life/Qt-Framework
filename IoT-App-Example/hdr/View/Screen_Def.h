@@ -11,7 +11,7 @@
 
 #ifndef SCREEN_DEF_MACROS
 #define SCREEN_DEF_MACROS
-
+// what is this?
 #define DEF_SCREEN(screenName, link) Q_PROPERTY(QString screenName READ screenName CONSTANT) \
     public: QString screenName() const { return QString(link); }
 
@@ -22,6 +22,7 @@
 
 #endif
 
+// what is this?
 #define SCR_DEF ScreenDef::getInstance()
 #define DELETE_SCR_DEF ScreenDef::DestroyInstance()
 
@@ -59,7 +60,7 @@ private:
     ~ScreenDef() {}
     ScreenDef(const ScreenDef&) = delete;
     void operator =(const ScreenDef&) = delete;
-
+    // What is this?
     // define screen goes here
 
     DEF_SCREEN(QML_FOLDER       , "file:" + BUILD_DIR + "/share/qml/")
