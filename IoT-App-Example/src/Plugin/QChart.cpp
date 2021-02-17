@@ -6,6 +6,7 @@
 
 #define db qDebug()
 
+// How it run ?
 QChart::QChart(QQuickItem *parent)
     : QQuickPaintedItem(parent)
     , m_xAxis{"xAxis"}
