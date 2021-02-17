@@ -27,7 +27,6 @@ HEADERS += \
     $$HEADER_PATH/Model/AppEnums.h \
     $$HEADER_PATH/View/Screen_Def.h \
     $$HEADER_PATH/Model/AppModel.h \
-    AppEngine.h
 
 SOURCES += \
     $$SOURCE_PATH/AppEngine.cpp \
@@ -38,7 +37,6 @@ SOURCES += \
     $$SOURCE_PATH/Plugin/QChart.cpp \
     $$SOURCE_PATH/Model/EasingFunction.cpp \
     $$SOURCE_PATH/Model/AppModel.cpp \
-    AppEngine.cpp
 
 
 RESOURCES +=
