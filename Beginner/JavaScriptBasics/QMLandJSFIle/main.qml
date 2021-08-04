@@ -13,6 +13,11 @@ Window {
     title: qsTr("Hello World")
     id: root
 
+    Component.onCompleted: {
+        Code.startup(root, box)
+        area.clicked.connect(Code.clicked)
+    }
+
     Rectangle{
         id: box
         color: Code.swapColor(area)
@@ -24,7 +29,7 @@ Window {
         MouseArea{
             id: area
             anchors.fill: parent
-            onClicked: Code.performClick(root, box)
+            // onClicked: Code.performClick(root, box)
 
         }
     }
