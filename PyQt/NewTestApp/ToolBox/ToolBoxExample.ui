@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ToolBox</class>
+ <widget class="QDialog" name="ToolBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>454</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ToolBox</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Resources/cut.jpg</normaloff>Resources/cut.jpg</iconset>
+  </property>
+  <widget class="QToolBox" name="toolBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>431</width>
+     <height>123</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>431</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>C++</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>431</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Python</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <attribute name="label">
+     <string>Java</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

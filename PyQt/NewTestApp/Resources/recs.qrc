@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="recs">
+    <file>70981574_p0.png</file>
+    <file>copy.png</file>
+    <file>cut.jpg</file>
+    <file>i.jpg</file>
+    <file>new.jpg</file>
+    <file>open.jpg</file>
+    <file>paste.jpg</file>
+    <file>redo.jpg</file>
+    <file>save.png</file>
+    <file>save_as.png</file>
+    <file>undo.png</file>
+  </qresource>
+</RCC>

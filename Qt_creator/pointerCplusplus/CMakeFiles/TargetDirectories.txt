@@ -1,0 +1,3 @@
+/home/life/Git/o_team_project/Qt_creator/pointerCplusplus/CMakeFiles/rebuild_cache.dir
+/home/life/Git/o_team_project/Qt_creator/pointerCplusplus/CMakeFiles/pointerCplusplus.dir
+/home/life/Git/o_team_project/Qt_creator/pointerCplusplus/CMakeFiles/edit_cache.dir
