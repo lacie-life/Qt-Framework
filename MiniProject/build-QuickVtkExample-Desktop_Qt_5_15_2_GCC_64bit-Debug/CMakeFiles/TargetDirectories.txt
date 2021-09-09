@@ -1,5 +1,0 @@
-/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/QuickVtkExample.dir
-/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/QuickVtkExample_autogen_timestamp_deps.dir
-/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/QuickVtkExample_autogen.dir
