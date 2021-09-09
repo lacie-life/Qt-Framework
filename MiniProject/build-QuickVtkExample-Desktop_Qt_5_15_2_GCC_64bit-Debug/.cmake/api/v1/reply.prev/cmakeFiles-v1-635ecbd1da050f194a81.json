@@ -1,0 +1,696 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/QtCreator/share/qtcreator/package-manager/auto-setup.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/3.21.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtk-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtk-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtk-prefix.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkCMakeBackports.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/VTK-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/VTK-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/VTK-vtk-module-properties.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/VTK-vtk-module-find-packages.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/patches/99/FindX11.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/FindFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkDetectLibraryType.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindFontconfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/patches/99/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkExternalData.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/ExternalData.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkModule.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkTopologicalSort.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkModuleTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/ExternalData.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/GenerateExportHeader.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkEncodeString.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkHashSource.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/lacie-life/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkObjectFactory.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/vtk-8.90/vtkModuleJson.cmake"
+		},
+		{
+			"path" : "qml.qrc"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug",
+		"source" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/QuickVtkExample"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

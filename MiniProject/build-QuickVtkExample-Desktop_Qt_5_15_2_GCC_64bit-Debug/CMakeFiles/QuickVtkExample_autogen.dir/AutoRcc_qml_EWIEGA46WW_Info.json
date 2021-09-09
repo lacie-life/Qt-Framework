@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/QuickVtkExample_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/QuickVtkExample",
+	"CMAKE_SOURCE_DIR" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/QuickVtkExample",
+	"INCLUDE_DIR" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/QuickVtkExample_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/lacie-life/Github/QtQuick-QML/MiniProject/QuickVtkExample/main.qml"
+	],
+	"LOCK_FILE" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/QuickVtkExample_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/home/lacie-life/Qt/5.15.2/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/QuickVtkExample_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/QuickVtkExample/qml.qrc",
+	"VERBOSITY" : 0
+}

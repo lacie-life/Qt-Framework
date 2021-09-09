@@ -1,0 +1,1046 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "QuickVtkExample"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "H5_BUILT_AS_DYNAMIC_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "VTK_HAS_OGGTHEORA_SUPPORT"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug"
+				},
+				{
+					"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/QuickVtkExample"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/QuickVtkExample_autogen/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-8.90"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-8.90/vtkhdf5"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-8.90/vtkhdf5/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-8.90/vtkhdf5/hl/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-8.90/vtkogg/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-8.90/vtklibxml2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lacie-life/Qt/5.15.2/gcc_64/include/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "QuickVtkExample_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickVtkExample_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "QuickVtkExample::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib:/home/lacie-life/Qt/5.15.2/gcc_64/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkWrappingTools-8.90.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkViewsInfovis-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkChartsCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingLabel-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOInfovis-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingContextOpenGL2-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkTestingRendering-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkViewsContext2D-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingVolumeOpenGL2-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingMath-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingLOD-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingImage-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOVeraOut-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOTecplotTable-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOSegY-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOParallelXML-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOPLY-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOOggTheora-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOMovie-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtktheora-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkogg-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOMotionFX-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOParallel-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIONetCDF-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkInteractionImage-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingParallel-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOMINC-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOLSDyna-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtklibxml2-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOImport-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOAMR-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOVideo-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOExportPDF-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOExportGL2PS-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingGL2PSOpenGL2-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkgl2ps-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOEnSight-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOCityGML-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkpugixml-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOAsynchronous-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersAMR-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingStencil-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingStatistics-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingMorphological-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkTestingIOSQL-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkGeovisCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtklibproj-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersFlowPaths-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersProgrammable-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersSelection-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersTopology-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersTexture-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersSMP-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersPoints-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersVerdict-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkverdict-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersParallelImaging-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersHyperTree-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersGeneric-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkTestingGenericBridge-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOParallelExodus-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkDomainsChemistryOpenGL2-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/libQt5Quick.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOGeometry-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOExport-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingContext2D-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkjsoncpp-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtklibharu-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOSQL-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtksqlite-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkViewsCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkInfovisLayout-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkInfovisCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkInteractionWidgets-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkInteractionStyle-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingAnnotation-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingVolume-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingFreeType-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkfreetype-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersHybrid-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingHybrid-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingColor-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOImage-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkpng-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkDICOMParser-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkmetaio-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtktiff-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkjpeg-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOXML-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersImaging-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingGeneral-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingSources-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersParallel-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersExtraction-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersStatistics-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingFourier-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkImagingCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersModeling-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkParallelCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOExodus-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkexodusII-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtknetcdf-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libvtkhdf5_hl-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libvtkhdf5-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingOpenGL2-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libXt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libICE.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libSM.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkglew-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkDomainsChemistry-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkRenderingCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonColor-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersGeometry-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersSources-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersGeneral-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkFiltersCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonComputationalGeometry-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOLegacy-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOXMLParser-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkIOCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonExecutionModel-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonDataModel-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonTransforms-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonSystem-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonMisc-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonMath-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkCommonCore-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkloguru-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtksys-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkzlib-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkdoubleconversion-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtklz4-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtklzma-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libvtkexpat-8.90.so.8.90.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/libQt5QmlModels.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/libQt5Qml.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/libQt5Network.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/lacie-life/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "QuickVtkExample",
+	"nameOnDisk" : "QuickVtkExample",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				5,
+				6
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/QuickVtkExample_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "QVTKFramebufferObjectItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "QVTKFramebufferObjectItem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/qrc_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/QuickVtkExample_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "qml.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/QuickVtkExample_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}

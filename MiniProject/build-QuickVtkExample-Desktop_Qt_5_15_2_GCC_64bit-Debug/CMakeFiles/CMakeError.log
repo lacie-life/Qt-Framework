@@ -1,0 +1,100 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5917c && [1/2] Building CXX object CMakeFiles/cmTC_5917c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5917c
+FAILED: cmTC_5917c 
+: && /usr/bin/g++   CMakeFiles/cmTC_5917c.dir/src.cxx.o -o cmTC_5917c   && :
+/usr/bin/ld: CMakeFiles/cmTC_5917c.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_502c8 && [1/2] Building CXX object CMakeFiles/cmTC_502c8.dir/CheckFunctionExists.cxx.o
+[2/2] Linking CXX executable cmTC_502c8
+FAILED: cmTC_502c8 
+: && /usr/bin/g++ -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_502c8.dir/CheckFunctionExists.cxx.o -o cmTC_502c8  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_01f57 && [1/2] Building CXX object CMakeFiles/cmTC_01f57.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_01f57
+FAILED: cmTC_01f57 
+: && /usr/bin/g++   CMakeFiles/cmTC_01f57.dir/src.cxx.o -o cmTC_01f57   && :
+/usr/bin/ld: CMakeFiles/cmTC_01f57.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lacie-life/Github/QtQuick-QML/MiniProject/build-QuickVtkExample-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_af27f && [1/2] Building CXX object CMakeFiles/cmTC_af27f.dir/CheckFunctionExists.cxx.o
+[2/2] Linking CXX executable cmTC_af27f
+FAILED: cmTC_af27f 
+: && /usr/bin/g++ -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_af27f.dir/CheckFunctionExists.cxx.o -o cmTC_af27f  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
