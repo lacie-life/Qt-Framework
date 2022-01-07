@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>workerscript.mjs</file>
+        <file>FruitModel.qml</file>
+    </qresource>
+</RCC>
