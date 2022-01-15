@@ -11,6 +11,9 @@
 #include <QLabel>
 #include <QGraphicsPixmapItem>
 
+#include <QMap>
+#include "EditorPluginInterface.h"
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -25,6 +28,9 @@ private:
     void setupShortcuts();
     void showImage(QString);
 
+    // Plugin
+    void loadPlugins();
+
 private slots:
     void openImage();
     void zoomIn();
@@ -32,13 +38,19 @@ private slots:
     void prevImage();
     void nextImage();
     void saveAs();
+    void blurImage();
+
+    // Plugin
+    void pluginPerform();
 
 private:
     QMenu *fileMenu;
     QMenu *viewMenu;
+    QMenu *editMenu;
 
     QToolBar *fileToolBar;
     QToolBar *viewToolBar;
+    QToolBar *editToolBar;
 
     QGraphicsScene *imageScene;
     QGraphicsView *imageView;
@@ -53,9 +65,13 @@ private:
     QAction *zoomOutAction;
     QAction *prevAction;
     QAction *nextAction;
+    QAction *blurAction;
 
     QString currentImagePath;
     QGraphicsPixmapItem *currentImage;
+
+    // Plugin
+    QMap<QString, EditorPluginInterface*> editPlugins;
 
 };
 #endif // MAINWINDOW_H

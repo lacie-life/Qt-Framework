@@ -1,7 +1,11 @@
 #include "mainwindow.h"
+#include "opencv2/opencv.hpp"
+
 #include <QApplication>
 #include <QFileDialog>
 #include <QMessageBox>
+#include <QDebug>
+#include <QPluginLoader>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -19,12 +23,17 @@ MainWindow::~MainWindow()
 void MainWindow::initUI()
 {
     this->resize(800, 600);
+
     // setup menubar
     fileMenu = menuBar()->addMenu("&File");
     viewMenu = menuBar()->addMenu("&View");
+    editMenu = menuBar()->addMenu("&Edit");
+
     // setup toolbar
     fileToolBar = addToolBar("File");
     viewToolBar = addToolBar("View");
+    editToolBar = addToolBar("Edit");
+
     // main area for image display
     imageScene = new QGraphicsScene(this);
     imageView = new QGraphicsView(imageScene);
@@ -58,12 +67,17 @@ void MainWindow::createActions()
     nextAction = new QAction("&Next Image", this);
     viewMenu->addAction(nextAction);
 
+    blurAction = new QAction("Blur", this);
+    editMenu->addAction(blurAction);
+
     // add actions to toolbars
     fileToolBar->addAction(openAction);
     viewToolBar->addAction(zoomInAction);
     viewToolBar->addAction(zoomOutAction);
     viewToolBar->addAction(prevAction);
     viewToolBar->addAction(nextAction);
+
+    editToolBar->addAction(blurAction);
 
     // connect the signals and slots
     connect(exitAction, SIGNAL(triggered(bool)), QApplication::instance(), SLOT(quit()));
@@ -73,6 +87,7 @@ void MainWindow::createActions()
     connect(zoomOutAction, SIGNAL(triggered(bool)), this, SLOT(zoomOut()));
     connect(prevAction, SIGNAL(triggered(bool)), this, SLOT(prevImage()));
     connect(nextAction, SIGNAL(triggered(bool)), this, SLOT(nextImage()));
+    connect(blurAction, SIGNAL(triggered(bool)), this, SLOT(blurImage()));
 
     setupShortcuts();
 }
@@ -183,5 +198,108 @@ void MainWindow::saveAs()
             QMessageBox::information(this, "Information", "Save error: bad format or filename.");
         }
     }
+}
+
+void MainWindow::blurImage()
+{
+    qDebug() << "Blur Function";
+    if(currentImage == nullptr)
+    {
+        QMessageBox::information(this, "Information", "No image to edit");
+        return;
+    }
+
+    QPixmap pixmap = currentImage->pixmap();
+    QImage image = pixmap.toImage();
+
+    image = image.convertToFormat(QImage::Format_RGB888);
+
+    cv::Mat mat = cv::Mat(image.height(), image.width(), CV_8UC3, image.bits(), image.bytesPerLine());
+    cv::Mat tmp;
+    cv::blur(mat, tmp, cv::Size(8, 8));
+    mat = tmp;
+
+    QImage image_blurred(
+            mat.data,
+            mat.cols,
+            mat.rows,
+            mat.step,
+            QImage::Format_RGB888);
+    pixmap = QPixmap::fromImage(image_blurred);
+    imageScene->clear();
+    imageView->resetMatrix();
+    currentImage = imageScene->addPixmap(pixmap);
+    imageScene->update();
+    imageView->setSceneRect(pixmap.rect());
+
+    QString status = QString("(editted image), %1x%2")
+        .arg(pixmap.width()).arg(pixmap.height());
+    mainStatusLabel->setText(status);
+}
+
+void MainWindow::loadPlugins()
+{
+    QDir pluginsDir(QApplication::instance()->applicationDirPath() + "/plugins");
+    QStringList nameFilters;
+    nameFilters << "*.so" << "*.dylib" << "*.dll";
+    QFileInfoList plugins = pluginsDir.entryInfoList(
+        nameFilters, QDir::NoDotAndDotDot | QDir::Files, QDir::Name);
+    foreach(QFileInfo plugin, plugins) {
+        QPluginLoader pluginLoader(plugin.absoluteFilePath(), this);
+        EditorPluginInterface *plugin_ptr = dynamic_cast<EditorPluginInterface*>(pluginLoader.instance());
+        if(plugin_ptr) {
+            QAction *action = new QAction(plugin_ptr->name());
+            editMenu->addAction(action);
+            editToolBar->addAction(action);
+            editPlugins[plugin_ptr->name()] = plugin_ptr;
+            connect(action, SIGNAL(triggered(bool)), this, SLOT(pluginPerform()));
+            // pluginLoader.unload();
+        } else {
+            qDebug() << "bad plugin: " << plugin.absoluteFilePath();
+        }
+    }
+}
+
+void MainWindow::pluginPerform()
+{
+    if (currentImage == nullptr) {
+        QMessageBox::information(this, "Information", "No image to edit.");
+        return;
+    }
+
+    QAction *active_action = qobject_cast<QAction*>(sender());
+    EditorPluginInterface *plugin_ptr = editPlugins[active_action->text()];
+    if(!plugin_ptr) {
+        QMessageBox::information(this, "Information", "No plugin is found.");
+        return;
+    }
+
+    QPixmap pixmap = currentImage->pixmap();
+    QImage image = pixmap.toImage();
+    image = image.convertToFormat(QImage::Format_RGB888);
+    cv::Mat mat = cv::Mat(
+        image.height(),
+        image.width(),
+        CV_8UC3,
+        image.bits(),
+        image.bytesPerLine());
+
+    plugin_ptr->edit(mat, mat);
+
+    QImage image_edited(
+        mat.data,
+        mat.cols,
+        mat.rows,
+        mat.step,
+        QImage::Format_RGB888);
+    pixmap = QPixmap::fromImage(image_edited);
+    imageScene->clear();
+    imageView->resetMatrix();
+    currentImage = imageScene->addPixmap(pixmap);
+    imageScene->update();
+    imageView->setSceneRect(pixmap.rect());
+    QString status = QString("(editted image), %1x%2")
+        .arg(pixmap.width()).arg(pixmap.height());
+    mainStatusLabel->setText(status);
 }
 
