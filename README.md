@@ -13,5 +13,7 @@
 9. QtPCLViewer (Qt5 + PCL library)
 10. QuickVtkExample (VTK Plugin)
 11. WebcamSupport
+12. Facetious
+
 
 
