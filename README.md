@@ -12,5 +12,6 @@
 8. Qt3DPointcloudRender (Qt pointcloud plugin based on Qt3D)
 9. QtPCLViewer (Qt5 + PCL library)
 10. QuickVtkExample (VTK Plugin)
+11. WebcamSupport
 
 
