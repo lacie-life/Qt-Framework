@@ -15,5 +15,6 @@
 11. WebcamSupport
 12. Facetious
 
+## [Reading] Embedded Development with Qt 5
 
 
