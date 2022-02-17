@@ -4,6 +4,7 @@
 #include <QOpenGLShaderProgram>
 #include <QCoreApplication>
 #include <QScopedPointer>
+#include <QDebug>
 
 #include <cmath>
 #include <cassert>
@@ -175,6 +176,9 @@ void Scene::paintGL()
   _cameraMatrix.rotate(camera.rotation.y(), 0, 1, 0);
   _cameraMatrix.rotate(camera.rotation.z(), 0, 0, 1);
 
+  qDebug() << "Position: " << camera.position.x() << " " << camera.position.y()<< " " << camera.position.z();
+  qDebug() << "Rotation: " << camera.rotation.x() << " " << camera.position.y()<< " " << camera.position.z();
+
   // set clipping planes
   glEnable(GL_CLIP_PLANE1);
   glEnable(GL_CLIP_PLANE2);
@@ -188,6 +192,9 @@ void Scene::paintGL()
   //
   QOpenGLVertexArrayObject::Binder vaoBinder(&_vao);
   const auto viewMatrix = _projectionMatrix * _cameraMatrix * _worldMatrix;
+
+  qDebug() << "Fucking Matrix " << viewMatrix;
+
   _shaders->bind();
   _shaders->setUniformValue("pointsCount", static_cast<GLfloat>(_pointsCount));
   _shaders->setUniformValue("viewMatrix", viewMatrix);
